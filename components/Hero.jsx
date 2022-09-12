@@ -11,7 +11,7 @@ const Hero = () => {
                 <div className='grid grid-cols-2 h-full'>
                     <div className='flex flex-col h-full justify-center'>
                         <h1 className='text-[54px] text-[#02073E] leading-[54px]'>Customizable Route</h1>
-                        <h1 className='text-[54px]  text-[#a1a5ff]'>Planning Software</h1>
+                        <h1 className='text-[54px] font-[500]  text-[#a1a5ff]'>Planning Software</h1>
                         <p className='mt-2 text-[16px] text-[#3c3c46] font-[400] '>Optimize performance, cut down costs, and achieve your business goals with SLog, the first fully customizable route planning software.</p>
                         <button className=' text-[18px] bg-[#a1a5ff] text-white mt-10 pt-[12px] pb-[12px] rounded-md hover:text-[#02073E] font-[400] transition duration-300 ease-out w-[45%] '>Start Your 15-day Trail</button>
                         

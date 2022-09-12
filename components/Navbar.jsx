@@ -19,13 +19,13 @@ const Navbar = () => {
 
           <ul className="ml-[72px] h-[74px] flex flex-wrap -mb-px items-center">
             <li className="inline-block py-6 px-5 text-medium border-b-[1.5px] border-transparent hover:border-blue-600 ">
-              <Link href="/#home">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="inline-block py-6 px-5 text-medium border-b-[1.5px] border-transparent hover:border-blue-600 ">
               <Link href="/#about">About</Link>
             </li>
             <li className="inline-block py-6 px-5 text-medium border-b-[1.5px] border-transparent hover:border-blue-600 ">
-              <Link className="inline-block" href="/#products">
+              <Link className="outline-none inline-block" href="/#products">
                 Products
               </Link>
             </li>
