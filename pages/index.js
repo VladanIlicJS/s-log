@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Features from '../components/Features'
 import Help from '../components/Help'
 import Hero from '../components/Hero'
+import RoutePlanner from '../components/RoutePlanner'
+import SoftwareFeatures from '../components/SoftwareFeatures'
 export default function Home() {
   return (
     <div >
@@ -14,6 +16,8 @@ export default function Home() {
       <Hero/>
       <Features/>
       <Help/>
+      <RoutePlanner/>
+      <SoftwareFeatures/>
     </div>
   )
 }

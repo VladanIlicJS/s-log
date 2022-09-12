@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     extend: {backgroundImage: {
       'hero': "url('../public/assets/hero.png')",
+      'planner':"url('../public/assets/smart-route-planner.png')"
     }},
   },
   plugins: [],
