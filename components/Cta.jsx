@@ -3,7 +3,7 @@ import React from 'react'
 
 const Cta = () => {
   return (
-    <div className='relative mr-20 h-[190px] bg-[#a1a5ff] py-16'>
+    <div className='relative mr-20 h-[190px] bg-[#a1a5ff] py-16 z-50'>
         <div className=' flex justify-between 2xl:pl-40 pr-20'>
 
             <div className='text-white'>
