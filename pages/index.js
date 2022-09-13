@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Cta from '../components/Cta'
 import Features from '../components/Features'
 import Help from '../components/Help'
 import Hero from '../components/Hero'
 import RoutePlanner from '../components/RoutePlanner'
+import ShowCase from '../components/ShowCase'
 import SoftwareFeatures from '../components/SoftwareFeatures'
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <Help/>
       <RoutePlanner/>
       <SoftwareFeatures/>
+      <ShowCase/>
+      <Cta/>
     </div>
   )
 }
