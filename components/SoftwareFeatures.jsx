@@ -50,7 +50,7 @@ const Features = () => {
             </div>
             <div className='grid grid-cols-[1fr,6fr]'>
                 <div className='pt-3 text-right'>
-                    <span className='text-3xl text-white rounded-full py-[3px] px-[6px] w-full h-full self-stretch border-solid border-[3.5px] font-medium text-[#ffa42f] border-[#ffa42f]'>05</span>
+                    <span className='text-3xl  rounded-full py-[3px] px-[6px] w-full h-full self-stretch border-solid border-[3.5px] font-medium text-[#ffa42f] border-[#ffa42f]'>05</span>
                 </div>
                 <div className='px-7 pr-14'>
                     <h5 className=' leading-[30px] text-[18px] font-[600]'>Flexibility</h5>
@@ -59,7 +59,7 @@ const Features = () => {
             </div>
             <div className='grid grid-cols-[1fr,6fr]'>
                 <div className='pt-3 text-right'>
-                    <span className='text-3xl text-white rounded-full py-[3px] px-[6px] w-full h-full self-stretch border-solid border-[3.5px] font-medium text-[#6ab04c] border-[#6ab04c]'>06</span>
+                    <span className='text-3xl  rounded-full py-[3px] px-[6px] w-full h-full self-stretch border-solid border-[3.5px] font-medium text-[#6ab04c] border-[#6ab04c]'>06</span>
                 </div>
                 <div className='px-7 pr-14'>
                     <h5 className=' leading-[30px] text-[18px] font-[600]'>24/7 Support</h5>
