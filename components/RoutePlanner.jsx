@@ -1,5 +1,6 @@
 import React from "react";
 import {AiOutlinePlus} from "react-icons/ai"
+import CollapsibleItems from "./Dropdowns";
 const RoutePlanner = () => {
   return (
     <div className="w-full pt-20">
@@ -17,7 +18,8 @@ const RoutePlanner = () => {
               business structure and goals.
             </p>
             <div>
-              <div className="py-[20px] px-[30px] shadow-md rounded-md">
+            <CollapsibleItems/>
+              {/* <div className="py-[20px] px-[30px] shadow-md rounded-md">
                 <div className="flex items-center justify-between text-[#a1a5ff] py-[20px]">
                   <h3 className="text-[#a1a5ff] text-[15px]">Shorter routes</h3>
                   <AiOutlinePlus/>
@@ -31,7 +33,7 @@ const RoutePlanner = () => {
               <div>
                 <h3 className="">Faster delivery</h3>
                 <p></p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
