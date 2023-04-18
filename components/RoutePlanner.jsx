@@ -18,7 +18,7 @@ const RoutePlanner = () => {
             </p>
             <div>
               <div className="py-[20px] px-[30px] shadow-md rounded-md">
-                <div className="flex items-center justify-between py-2 text-[#a1a5ff] py-[20px]">
+                <div className="flex items-center justify-between text-[#a1a5ff] py-[20px]">
                   <h3 className="text-[#a1a5ff] text-[15px]">Shorter routes</h3>
                   <AiOutlinePlus/>
                 </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-
+import hand from '../public/assets/hand.png'
 const Cta = () => {
   return (
     <div className='relative mr-20 h-[190px] bg-[#a1a5ff] py-16 z-50'>
@@ -19,7 +19,7 @@ const Cta = () => {
         
                 
         <span className='absolute top-[60%] right-6 translate-y-[-60%] pl-2'>
-            <Image src="/../public/assets/hand.png" alt="/" width="45px" height="25px"/>  
+            <Image src={hand} alt="/" width="45px" height="25px"/>  
 
         </span>
 
