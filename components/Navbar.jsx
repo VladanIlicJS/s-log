@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
+import Logo from '../public/assets/logo.png'
 const Navbar = () => {
   return (
     <div className="fixed w-full z-[100] bg-[#fff] ">
@@ -10,7 +10,7 @@ const Navbar = () => {
           <Link href="/">
             <Image
               className="cursor-pointer min-h-[29px]"
-              src="/../public/assets/logo.png"
+              src={Logo}
               alt="/"
               width="118px"
               height="29px"
