@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
-import Logo from "../public/assets/logo.png"
+import Logo from "../public/assets/logo.jpg"
 const Navbar = () => {
   return (
     <div className="fixed w-full z-[100] bg-[#fff]">

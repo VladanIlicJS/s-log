@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Logo from '../public/assets/logo.png'
+import Logo from '../public/assets/logo.jpg'
 const Footer = () => {
   return (
     <div className='flex justify-between items-center 2xl:px-40 py-5'>
