@@ -4,10 +4,10 @@ import Cta from "./Cta"
 const Bottom = () => {
   return (
     <div className="w-full bg-[#032e4c] relative">
-      <div className="2xl:px-40 flex justify-between py-16 pt-[150px] -mt-[95px]">
-        <div className="grid grid-cols-3 gap-x-28 text-white mt-10 ">
-          <div>
-            <h1 className="text-[16px] font-semibold pb-12">Platform</h1>
+      <div className="2xl:px-40 flex justify-between flex-col lg:flex-row lg:py-16 lg:pt-[150px] lg:-mt-[95px] mt-0">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-x-28 text-white mt-10 ">
+          <div className="lg:text-start text-center py-3">
+            <h1 className="text-[16px] font-semibold lg:pb-12 py-4">Platform</h1>
             <ul>
               <li className="pb-5 opacity-50">
                 <Link href="">How it Works</Link>
@@ -27,8 +27,8 @@ const Bottom = () => {
             </ul>
           </div>
 
-          <div>
-            <h1 className="text-[16px] font-semibold pb-12">Solutions</h1>
+          <div className="lg:text-start text-center py-3">
+            <h1 className="text-[16px] font-semibold lg:pb-12 py-4">Solutions</h1>
             <ul>
               <li className="pb-5 opacity-50">
                 <Link href="">Attract & retain talent</Link>
@@ -48,8 +48,8 @@ const Bottom = () => {
             </ul>
           </div>
 
-          <div className="">
-            <h1 className="text-[16px] font-semibold pb-12">Resources</h1>
+          <div className="lg:text-start text-center py-3">
+            <h1 className="text-[16px] font-semibold lg:pb-12 py-4">Resources</h1>
             <ul>
               <li className="pb-5 opacity-50">
                 <Link href="">Working playbook</Link>
@@ -70,10 +70,10 @@ const Bottom = () => {
           </div>
         </div>
 
-        <div className="border-r-2 opacity-30 "></div>
+        <div className="lg:block hidden border-r-2 opacity-30 "></div>
 
-        <div className="mt-10">
-          <h1 className="text-[16px] font-semibold pb-12 text-white">Get in Touch</h1>
+        <div className="lg:text-start text-center py-3">
+          <h1 className="text-[16px] font-semibold lg:pb-12 py-2 text-white">Get in Touch</h1>
           <p className="text-white opacity-50">Feel free to get in touch with us via email</p>
           <p className="text-white py-5 text-[18px] font-medium italic">solvelog@gmail.com</p>
         </div>
