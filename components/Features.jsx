@@ -5,7 +5,7 @@ import money from '../public/assets/icon-money.png'
 import growth from '../public/assets/icon-growth.png'
 const Features = () => {
   return (
-    <div className=' pt-[75px] w-full bg-[#fbfbff]'>
+    <div className=' pt-[75px] w-full bg-[#fbfbff] 2xl:px-0 px-9'>
         <div className='text-center'>
 
             <p className='text-[#a1a5ff] mb-3'>Easy to use route planning solution</p>
