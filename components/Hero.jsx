@@ -5,7 +5,7 @@ import { FaDropbox } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen'>
+    <div id='Home' className='w-full h-screen'>
         <div className='relative bg-hero w-[100%] h-screen  bg-no-repeat bg-right bg-[length:58%_100%]'> 
             <div className='absolute pt-[60px] 2xl:px-40 h-full' >
                 <div className='grid grid-cols-2 h-full'>
