@@ -5,7 +5,7 @@ import Logo from "../public/assets/logo.jpg"
 const Navbar = () => {
   return (
     <div className="fixed w-full z-[100] bg-[#fff]">
-      <div className="flex justify-between items-center w-full px-2 2xl:px-40 border-b ">
+      <div className="flex justify-between items-center w-full px-6 2xl:px-40 border-b ">
         <div className="flex h-full py-6 items-center">
           <Link href="/">
             <Image className="cursor-pointer min-h-[29px]" src={Logo} alt="/" width="118px" height="29px" />

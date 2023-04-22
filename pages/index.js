@@ -29,3 +29,4 @@ export default function Home() {
     </div>
   )
 }
+//className='2xl:px-0 px-9'
