@@ -16,11 +16,11 @@ const Hero = () => {
                         <p className='mt-2 text-[16px] text-[#3c3c46] font-[400] '>Optimize performance, cut down costs, and achieve your business goals with SLog, the first fully customizable route planning software.</p>
                         <button className=' text-[18px] bg-[#a1a5ff] text-white mt-10 pt-[12px] pb-[12px] rounded-md hover:text-[#02073E] font-[400] transition duration-300 ease-out w-[45%] '>Start Your 15-day Trail</button>
                         <li className='lg:hidden text-[16px] flex text-gray-300 mt-10 font-semibold'>Our Clients</li>
-                            <ul className='text-[16px] flex text-gray-300 lg:mt-10 mt-5 font-semibold'>
+                            <ul className=' gap-3 text-[16px] flex justify-between text-gray-300 lg:mt-10 mt-5 font-semibold'>
                                 <li className='hidden lg:flex'>Our Clients</li>
-                                <li className='flex justify-center text-[20px] items-center ml-8 ]'><FaPaypal className='mx-2'/> Paypal</li>
-                                <li className='ml-8 text-[20px]'>Google</li>
-                                <li className='flex justify-center text-[20px] items-center ml-8'><FaDropbox className='mx-2'/>Dropbox</li>
+                                <li className='flex justify-center text-[20px] items-center  ]'><FaPaypal className='mx-2'/> Paypal</li>
+                                <li className='text-[20px]'>Google</li>
+                                <li className='flex justify-center text-[20px] items-center '><FaDropbox className='mx-2'/>Dropbox</li>
                             </ul>
                         
                     </div>
