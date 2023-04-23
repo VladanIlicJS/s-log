@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-
 const InputForm = ({inputFields,setInputFields}) => {
   
   const handleChange = (index, event) => {
@@ -21,9 +20,9 @@ const InputForm = ({inputFields,setInputFields}) => {
 
 
   return (
-      <div className="my-5">
+      <div className="my-5 w-full">
         <h2 className="text-[#a1a5ff] text-[20px] font-bold my-4"> Add up 10 addresses and generate you optimizated route</h2>
-        <form className="w-[80%] my-10">
+        <form className="md:w-[80%] my-10">
           {inputFields.map((inputField, index) => (
             <div key={index} className="w-full flex justify-between my-4 items-center">
               <label className="font-semibold text-[#3c3c46]" htmlFor={`address${index + 1}`}>
@@ -39,20 +38,30 @@ const InputForm = ({inputFields,setInputFields}) => {
                 className="bg-white border-[#a1a5ff] border-2 p-1 outline-none rounded-lg w-[55%] px-4 text-[#3c3c46]"
               />
               {inputFields.length > 2 ? (
-                <button type="button" className=" py-2 px-4 text-[#2B2D80] rounded-xl bg-white shadow-lg font-semibold hover:text-[#a1a5ff]" onClick={() => handleRemoveFields(index)}>
+                <button type="button" className="flex py-2 lg:px-4 px-1 text-[#2B2D80] rounded-xl bg-white shadow-lg font-semibold hover:text-[#a1a5ff]" onClick={() => handleRemoveFields(index)}>
                   Delete
                 </button>
               ) : (
-                <button type="button" disabled className="text-[#2B2D80] rounded-xl bg-gray-200 shadow-lg font-semibold py-2 px-4">
+                <button type="button" disabled className=" flex text-[#2B2D80] rounded-xl bg-gray-200 shadow-lg font-semibold py-2 px-4">
                   Delete
                 </button>
               )}
+             {/*  {inputFields.length > 2 ? (
+                <button type="button" className="lg:hidden  py-2 lg:px-4 px-2 text-[#2B2D80] rounded-full bg-white shadow-lg font-semibold hover:text-[#a1a5ff]" onClick={() => handleRemoveFields(index)}>
+                  <DeleteOutline/>
+                  
+                </button>
+              ) : (
+                <button type="button" disabled className="lg:hidden text-[#2B2D80] rounded-full bg-gray-200 shadow-lg font-semibold py-2 px-2">
+                <DeleteOutline/>
+                </button>
+              )} */}
             </div>
           ))}
 
           <button
             type="button"
-            className="text-[18px] bg-[#a1a5ff] text-white mt-10 pt-[12px] pb-[12px] rounded-md hover:text-[#02073E] font-[400] transition duration-300 ease-out px-5 cursor-pointer"
+            className="lg:text-[18px] text-[12px] bg-[#a1a5ff] text-white mt-10 pt-[12px] pb-[12px] rounded-md hover:text-[#02073E] font-[400] transition duration-300 ease-out px-5 cursor-pointer"
             onClick={handleAddFields}
           > 
             Add More Addresses

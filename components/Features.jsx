@@ -5,13 +5,13 @@ import money from '../public/assets/icon-money.png'
 import growth from '../public/assets/icon-growth.png'
 const Features = () => {
   return (
-    <div className=' pt-[75px] w-full bg-[#fbfbff] 2xl:px-0 px-9'>
+    <div id='About' className=' pt-[75px] w-full bg-[#fbfbff] 2xl:px-0 px-9'>
         <div className='text-center'>
 
             <p className='text-[#a1a5ff] mb-3'>Easy to use route planning solution</p>
-            <h2 className='text-2xl font-[500]  text-[#2b2d80]'>Route planning and optimization for top results</h2>
+            <h2 className='md:text-2xl font-[600]  text-[20px] text-[#2b2d80]'>Route planning and optimization for top results</h2>
         </div>
-        <div className='py-20 px-2 2xl:px-40 grid lg:grid-cols-3 grid-cols-1 items-center justify-center lg:gap-0 gap-5'>
+        <div className='md:py-20 py-8 px-2 2xl:px-40 grid lg:grid-cols-3 grid-cols-1 items-center justify-center lg:gap-0 gap-5'>
             <div className='w-full lg:grid lg:grid-cols-[1fr,4fr] flex justify-center flex-col items-center'>
                 <div>
                     <Image src={profile}  width={69} height={69} alt="/" />
