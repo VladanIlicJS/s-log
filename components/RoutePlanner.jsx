@@ -6,7 +6,7 @@ import Image from "next/image"
 const RoutePlanner = () => {
   return (
     <div id="Products" className="w-full pt-20 pb-1 mb-1">
-      <div className="  lg:bg-planner w-full lg:h-[600px] bg-no-repeat bg-[length:55%_100%]">
+      <div className="lg:bg-planner w-full lg:h-[600px] bg-no-repeat bg-[length:55%_100%]">
         <div className=" grid lg:grid-cols-[10fr,7fr] grid-cols-1">
           <div className="lg:block hidden"></div>
           <div className="py-3 2xl:px-3 2xl:pr-40 px-9 lg:text-start text-center w-full">

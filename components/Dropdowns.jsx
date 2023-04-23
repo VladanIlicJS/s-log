@@ -32,7 +32,7 @@ function CollapsibleItems() {
           <span className="">{item1Expanded ? <AiOutlineMinus /> : <AiOutlinePlus />}</span>
         </div>
         {item1Expanded && (
-          <div className="text-[#343D48] py-[20px] text-[10px] text-start">
+          <div className="text-[#343D48] lg:text-[12px] py-[20px] text-[10px] text-start">
             <p>SLog helps you eliminate redundant trips and get to all locations using the shortest route possible.</p>
           </div>
         )}
@@ -45,7 +45,7 @@ function CollapsibleItems() {
           <span className="">{item2Expanded ? <AiOutlineMinus /> : <AiOutlinePlus />}</span>
         </div>
         {item2Expanded && (
-          <div className="text-[#343D48] py-[20px] text-[10px] text-start">
+          <div className="text-[#343D48] py-[20px] lg:text-[12px] text-[10px] text-start">
             <p>SLog helps you eliminate redundant trips and get to all locations using the shortest route possible.</p>
           </div>
         )}
@@ -58,7 +58,7 @@ function CollapsibleItems() {
           <span className="">{item3Expanded ? <AiOutlineMinus /> : <AiOutlinePlus />}</span>
         </div>
         {item3Expanded && (
-          <div className="text-[#343D48] py-[20px] text-[10px] text-start">
+          <div className="text-[#343D48] py-[20px] lg:text-[12px] text-[10px] text-start">
             <p>SLog helps you eliminate redundant trips and get to all locations using the shortest route possible.</p>
           </div>
         )}
