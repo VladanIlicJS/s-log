@@ -7,7 +7,7 @@ import hero from "../public/assets/hero.png"
 const Hero = () => {
   return (
     <div id='Home' className='w-full mb-1 pb-1 relative '>
-        <div className='lg:bg-hero w-[100%] 2xl:pr-[-36px] pb-1  bg-no-repeat bg-right bg-[length:58%_100%]'> 
+        <div className='lg:bg-hero 2xl:pr-[-36px] pb-1 bg-no-repeat bg-contain bg-right lg:h-screen'> 
             <div className=' pt-[60px] 2xl:px-40 h-full' >
                 <div className='grid lg:grid-cols-2 grid-cols-1 lg:text-left text-center h-full 2xl:px-0 lg:px-9 '>
                     <div className='flex flex-col h-full justify-center lg:items-start items-center lg:px-0 px-9'>
@@ -24,8 +24,8 @@ const Hero = () => {
                             </ul> */}
                         
                     </div>
-                    <div className='w-full'>
-                        <Image src={hero} fill  sizes="(max-width: 768px) 100vw"/>
+                    <div className='lg:hidden w-full h-screen'>
+                        <Image src={hero}/>
                     </div>
                 </div>
             </div>
