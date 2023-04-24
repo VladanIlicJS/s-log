@@ -4,8 +4,8 @@ import Cta from "./Cta"
 const Bottom = () => {
   return (
     <div className="w-full bg-[#032e4c] relative">
-      <div className="2xl:px-40 flex justify-between flex-col lg:flex-row lg:py-16 lg:pt-[150px] lg:-mt-[95px] mt-0">
-        <div className="grid lg:grid-cols-3 grid-cols-1 gap-x-28 text-white mt-10 ">
+      <div className="2xl:px-40 px-9 flex justify-between flex-col lg:flex-row lg:py-16 lg:pt-[150px] lg:-mt-[95px] mt-0">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-x-28 text-white">
           <div className="lg:text-start text-center py-3">
             <h1 className="text-[16px] font-semibold lg:pb-12 py-4">Platform</h1>
             <ul>
@@ -75,7 +75,7 @@ const Bottom = () => {
         <div className="lg:text-start text-center py-3">
           <h1 className="text-[16px] font-semibold lg:pb-12 py-2 text-white">Get in Touch</h1>
           <p className="text-white opacity-50">Feel free to get in touch with us via email</p>
-          <p className="text-white py-5 text-[18px] font-medium italic">solvelog@gmail.com</p>
+          <p className="text-white py-5 text-[18px] font-medium italic">contact@slog.ai</p>
         </div>
       </div>
     </div>

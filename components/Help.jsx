@@ -1,5 +1,6 @@
 import React from 'react'
-
+import show from '../public/assets/show.jpg'
+import Image from 'next/image'
 const Help = () => {
   return (
     <div className='2xl:px-40'>
@@ -11,8 +12,9 @@ const Help = () => {
             <p className='pt-[10px] lg:pr-[100px] md:text-[16px] text-[12px] pr-0 leading-6'>SLog analyzes your real-time data and optimizes for the metrics which are most important to you.</p>
             <button className='lg:text-[18px] text-[12px] bg-[#a1a5ff] text-white mt-10 pt-[12px] pb-[12px] px-12 rounded-md hover:text-[#02073E] font-[400] transition duration-300 ease-out lg:w-[45%]'>Book a Demo</button>
           </div>
-          <div className='flex lg:justify-end'>
-            <div className='bg-[#bf8787] lg:w-[80%] lg:h-[90%] h-[450px] w-full shadow-2xl'>
+          <div className='lg:flex lg:justify-end justify-center hidden'>
+            <div className='lg:w-[80%] lg:h-[80%] shadow-2xl'>
+            <Image src={show}/>
             </div>
           </div>
         </div>

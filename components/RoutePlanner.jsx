@@ -1,12 +1,13 @@
 import React from "react"
 import { AiOutlinePlus } from "react-icons/ai"
 import CollapsibleItems from "./Dropdowns"
-import planner from "../public/assets/smart-route-planner.png"
+//import planner from "../public/assets/smart-route-planner.png"
 import Image from "next/image"
+import planner from "../public/assets/planner.png"
 const RoutePlanner = () => {
   return (
     <div id="Products" className="w-full pt-20 pb-1 mb-1">
-      <div className="lg:bg-planner w-full lg:h-[600px] bg-no-repeat bg-[length:55%_100%]">
+      <div className="lg:bg-planner md:h-[450px] lg:h-[450px] xl:h-[550] 2xl:h-[570px] bg-contain bg-no-repeat">
         <div className=" grid lg:grid-cols-[10fr,7fr] grid-cols-1">
           <div className="lg:block hidden"></div>
           <div className="py-3 2xl:px-3 2xl:pr-40 px-9 lg:text-start text-center w-full">
