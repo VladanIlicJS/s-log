@@ -37,7 +37,7 @@ const RoutePlanner = () => {
             </div>
           </div>
           <div className="w-full lg:hidden">
-            <Image src={planner} fill sizes="(max-width: 768px) 100vw" />
+            <Image src={planner} sizes="(max-width: 768px) 100vw" />
           </div>
         </div>
       </div>

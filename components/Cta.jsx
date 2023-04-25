@@ -11,7 +11,7 @@ const Cta = () => {
             <p className="text-white text-[18px]">Try for free, or book a free demo. Make route planning easier</p>
           </div>
 
-          <button className="text-[21px] px-12 bg-white rounded-md">Get Started Today</button>
+          <button className="text-[21px] px-12 hover:bg-white/75 transition ease-in-out bg-white rounded-md">Get Started Today</button>
         </div>
 
        {/*  <span className="absolute top-[60%] right-6 translate-y-[-60%] pl-2">

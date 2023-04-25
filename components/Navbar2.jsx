@@ -40,7 +40,8 @@ const Navbar = () => {
           Try Now
         </button>
         <Link href={"/demo"}>
-          <button className="px-10 bg-[#a1a5ff] text-white pt-[10px] pb-[10px] rounded-xl hover:text-[#02073E] font-[500] transition duration-300 ease-out ">
+          <button className="px-10 bg-[#a1a5ff] text-white pt-[10px] pb-[10px] rounded-xl
+          hover:bg-[#8387f9] font-[500] transition duration-300 ease-out ">
             Try For Free
           </button>
         </Link>

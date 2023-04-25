@@ -23,10 +23,8 @@ const Demo = () => {
   const getCoordinatesAndOpenLink = async () => {
     const coordinates = []
     for (const field of inputFields) {
-      
-        const coords = await fetchCoordinates(field.address)
-        coordinates.push(coords)
-      
+      const coords = await fetchCoordinates(field.address)
+      coordinates.push(coords)
     }
     // Create the URL with the coordinates and random capacities
     const baseUrl = "https://extrat-coordinates.vercel.app/"
@@ -53,11 +51,11 @@ const Demo = () => {
           <div className=" flex justify-center items-center self-start lg:pt-20 ">
             <div className="bg-[#a1a5ff] px-20 py-20 rounded-lg">
               <div
-                className={`py-[24px] px-[32px] bg-[#F6F8FB] hover:shadow-xl shadow-md rounded-md cursor-pointer`}
+                className={`py-[24px] px-[32px] bg-[#F6F8FB] hover:bg-[#F6F8FB]/75 transition ease-in-out hover:shadow-xl shadow-md rounded-md cursor-pointer `}
                 onClick={() => getCoordinatesAndOpenLink()}
               >
                 <div className={`w-full flex justify-between cursor-pointer transition ease-in-out`}>
-                  <div className={`hover:text-[#A1A5FF] text-[#2B2D80] w-full flex justify-between lg:text-[15px] text-[12px] font-semibold`}>
+                  <div className={` text-[#2B2D80] w-full flex justify-between lg:text-[15px] text-[12px] font-semibold`}>
                     Generate Route
                   </div>
                 </div>

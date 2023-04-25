@@ -59,7 +59,7 @@ const InputForm = ({ inputFields, setInputFields }) => {
                 className="lg:hidden  py-2 lg:px-4 px-2 text-[#2B2D80] rounded-full bg-white shadow-lg font-semibold hover:text-[#a1a5ff]"
                 onClick={() => handleRemoveFields(index)}
               >
-                <AiOutlineDelete/>
+                <AiOutlineDelete />
               </button>
             ) : (
               <button
@@ -75,7 +75,7 @@ const InputForm = ({ inputFields, setInputFields }) => {
 
         <button
           type="button"
-          className="lg:text-[18px] text-[12px] bg-[#a1a5ff] text-white mt-10 pt-[12px] pb-[12px] rounded-md hover:text-[#02073E] font-[400] transition duration-300 ease-out px-5 cursor-pointer"
+          className="lg:text-[18px] text-[12px] bg-[#a1a5ff] text-white mt-10 pt-[12px] pb-[12px] rounded-md font-[400] transition duration-300 ease-out px-5 cursor-pointer hover:bg-[#8387f9]"
           onClick={handleAddFields}
         >
           Add More Addresses
