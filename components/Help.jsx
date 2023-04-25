@@ -1,6 +1,7 @@
 import React from "react"
 import show from "../public/assets/show.jpg"
 import Image from "next/image"
+import Link from "next/link"
 const Help = () => {
   return (
     <div className="2xl:px-40 px-9">
@@ -11,13 +12,18 @@ const Help = () => {
             Al-driven route <br></br>
             <span className="text-[#2b2d80]">optimization</span>
           </h2>
-          <p className="md:text-[18px] text-[12px] md:font-[500] font-[500] py-[10px]">Leverage the power of the latest AI technology</p>
-          <p className="pt-[10px] lg:pr-[100px] md:text-[16px] text-[12px] pr-0 leading-6">
-            SLog analyzes your real-time data and optimizes for the metrics which are most important to you.
+          <p className="md:text-[18px] text-[12px] md:font-[500] font-[500] py-[10px]">
+            Leverage the power of the latest AI technology
           </p>
-          <button className="lg:text-[18px] text-[12px] bg-[#a1a5ff] text-white mt-10 pt-[12px] pb-[12px] px-12 rounded-md  font-[400] transition duration-300 ease-out lg:w-[45%] hover:bg-[#8387f9]">
-            Book a Demo
-          </button>
+          <p className="pt-[10px] lg:pr-[100px] md:text-[16px] text-[12px] pr-0 leading-6">
+            SLog analyzes your real-time data and optimizes for the metrics which are most important
+            to you.
+          </p>
+          <Link href='/#bottom'>
+            <button className="lg:text-[18px] text-[12px] bg-[#a1a5ff] text-white mt-10 pt-[12px] pb-[12px] px-12 rounded-md  font-[400] transition duration-300 ease-out lg:w-[45%] hover:bg-[#8387f9]">
+              Book a Demo
+            </button>
+          </Link>
         </div>
         <div className="lg:flex lg:justify-end justify-center hidden">
           <div>

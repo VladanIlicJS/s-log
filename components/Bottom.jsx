@@ -4,7 +4,7 @@ import Cta from "./Cta"
 import ContactForm from "./ContactForm"
 const Bottom = () => {
   return (
-    <div className="w-full bg-[#032e4c] relative">
+    <div id="bottom" className="w-full bg-[#032e4c] relative">
       <div className="2xl:px-40 px-9 flex  gap-10 flex-col lg:flex-row lg:py-16 w-full lg:pt-[150px] lg:-mt-[95px] mt-0">
         {/* <div className="grid lg:grid-cols-3 grid-cols-1 gap-x-28 text-white">
           <div className="lg:text-start text-center py-3">

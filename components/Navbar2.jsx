@@ -36,9 +36,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="lg:flex  hidden">
-        <button className="px-6 text-[#2a2d80] opacity-50 hover:opacity-100 hover:text-gray-700 transition duration-300 ease-out">
+{/*         <button className="px-6 text-[#2a2d80] opacity-50 hover:opacity-100 hover:text-gray-700 transition duration-300 ease-out">
           Try Now
-        </button>
+        </button> */}
         <Link href={"/demo"}>
           <button className="px-10 bg-[#a1a5ff] text-white pt-[10px] pb-[10px] rounded-xl
           hover:bg-[#8387f9] font-[500] transition duration-300 ease-out ">

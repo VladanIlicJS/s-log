@@ -14,7 +14,7 @@ const Footer = () => {
               height="29px"
             />
           </Link>
-          <p className='opacity-25'>&copy;2022@SolveLogistics. All Rights Reserved</p>
+          <p className='opacity-25'>&copy;2023@SolveLogistics. All Rights Reserved</p>
     </div>
   )
 }
