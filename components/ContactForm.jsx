@@ -14,7 +14,6 @@ const ContactForm = () => {
 
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
     // Send form data to server here
-    console.log(values)
     try {
       const res = await fetch("/api/send", {
         method: "POST",
@@ -23,9 +22,8 @@ const ContactForm = () => {
         },
         body: JSON.stringify(values),
       })
-      console.log(res)
     } catch (err) {
-      console.log(err)
+      return
     }
 
     // Reset the form after successful submission
