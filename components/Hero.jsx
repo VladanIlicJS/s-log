@@ -35,7 +35,7 @@ const Hero = () => {
                                 <li className='flex justify-center text-[20px] items-center '><FaDropbox className='mx-2'/>Dropbox</li>
                             </ul> */}
             </div>
-            <div className="lg:hidden w-full h-screen">
+            <div className="lg:hidden w-full">
               <Image src={hero} />
             </div>
           </div>

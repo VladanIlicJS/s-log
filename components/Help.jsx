@@ -6,7 +6,7 @@ const Help = () => {
   return (
     <div className="2xl:px-40 px-9">
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:text-start text-center">
-        <div className="py-[100px] 2xl:px-0 xl-9 lg:px-9">
+        <div className="lg:py-[100px] py-5 2xl:px-0 xl-9 lg:px-9">
           <h5 className="text-[#a1a5ff] text-[16px] ">How we help</h5>
           <h2 className="text-[#a1a5ff] text-4xl leading-[44px] pt-[32px] font-[500]">
             Al-driven route <br></br>
