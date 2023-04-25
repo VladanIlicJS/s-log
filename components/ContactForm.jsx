@@ -42,7 +42,7 @@ const ContactForm = () => {
       >
         {({ isSubmitting }) => (
           <Form className="">
-            <div className="pb-4 flex flex-col gap-2 w-1/2">
+            <div className="pb-4 flex flex-col gap-2 lg:w-1/2 w-full">
               <label htmlFor="email" className="block text-sm pb-2 text-white">
                 Email
               </label>
@@ -55,7 +55,7 @@ const ContactForm = () => {
               <ErrorMessage name="email" component="p" className="text-sm text-red-500" />
             </div>
 
-            <div className="pb-4 flex flex-col gap-2 w-1/2">
+            <div className="pb-4 flex flex-col gap-2 lg:w-1/2 w-full">
               <label htmlFor="message" className="block pb-2 text-sm w-full text-white">
                 Message
               </label>
@@ -69,7 +69,7 @@ const ContactForm = () => {
             </div>
 
             <button
-              className="lg:text-[18px] text-[12px] bg-[#a1a5ff] w-1/4 text-white pt-[12px] pb-[12px] rounded-md font-[400] transition duration-300 ease-out px-5 cursor-pointer hover:bg-[#8387f9]"
+              className="lg:text-[18px] text-[12px] bg-[#a1a5ff] lg:w-1/4 w-1/2 text-white pt-[12px] pb-[12px] rounded-md font-[400] transition duration-300 ease-out px-5 cursor-pointer hover:bg-[#8387f9]"
               type="submit"
               disabled={isSubmitting}
             >
