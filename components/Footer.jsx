@@ -4,7 +4,7 @@ import React from 'react'
 import Logo from '../public/assets/logo.jpg'
 const Footer = () => {
   return (
-    <div className='lg:flex hidden justify-between items-center 2xl:px-40 py-5 px-9'>
+    <div className='flex justify-between lg:flex-row flex-col items-center 2xl:px-40 py-5 px-9'>
         <Link href="/">
             <Image
               className="cursor-pointer min-h-[29px]"
@@ -14,7 +14,7 @@ const Footer = () => {
               height="29px"
             />
           </Link>
-          <p className='opacity-25'>&copy;2023@SolveLogistics. All Rights Reserved</p>
+          <p className='opacity-25 lg:pt-0 pt-3'>&copy;2023@SolveLogistics. All Rights Reserved</p>
     </div>
   )
 }

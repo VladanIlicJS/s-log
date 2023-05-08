@@ -13,6 +13,7 @@ const ContactForm = () => {
   })
 
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
+    
     // Send form data to server here
     try {
       const res = await fetch("/api/send", {
@@ -34,7 +35,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="w-full">
+    <div className="w-full lg:pb-0 pb-10">
       <Formik
         initialValues={{ email: "", message: "" }}
         validationSchema={validationSchema}
