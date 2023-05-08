@@ -8,10 +8,10 @@ const RoutePlanner = () => {
   return (
     <div id="Products" className="w-full lg:pt-20 pt-10 pb-1 mb-1 max-h-[150%]">
       <div className="flex w-full">
-        <div className="flex w-3/5 items-end pr-10">
+        <div className="lg:flex hidden w-3/5 items-end pr-10">
           <Image src={planner} className=""/>
         </div>
-        <div className=" w-2/5 grid lg:grid-cols-1">
+        <div className=" lg:w-2/5 w-full grid lg:grid-cols-1">
           <div className="lg:block hidden"></div>
           <div className="py-3 2xl:px-3 2xl:pr-40 px-9 lg:text-start text-center w-full">
             <h5 className="text-[#a1a5ff] text-[16px]">Smart Route Planner</h5>
@@ -25,7 +25,7 @@ const RoutePlanner = () => {
             <p className="leading-7 lg:text-[16px] text-[12px]">
               for your unique business structure and goals.
             </p>
-            <div>
+            <div className="">
               <CollapsibleItems />
             </div>
           </div>
