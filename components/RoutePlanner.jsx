@@ -6,13 +6,12 @@ import Image from "next/image"
 import planner from "../public/assets/planner.png"
 const RoutePlanner = () => {
   return (
-    <div id="Products" className="w-full lg:pt-20 pt-10 pb-1 mb-1 max-h-[150%]">
+    <div id="Products" className="w-full lg:pt-20 pt-10 max-h-[150%]">
       <div className="flex w-full">
         <div className="lg:flex hidden w-3/5 items-end pr-10">
           <Image src={planner} className=""/>
         </div>
-        <div className=" lg:w-2/5 w-full grid lg:grid-cols-1">
-          <div className="lg:block hidden"></div>
+        <div className=" lg:w-2/5 w-full items-start grid lg:grid-cols-1">
           <div className="py-3 2xl:px-3 2xl:pr-40 px-9 lg:text-start text-center w-full">
             <h5 className="text-[#a1a5ff] text-[16px]">Smart Route Planner</h5>
             <h1 className="text-[#2b2d80] lg:text-3xl text-2xl leading-[40px] pt-[32px] font-[500] ">
