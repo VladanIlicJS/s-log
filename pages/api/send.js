@@ -8,8 +8,7 @@ export default async(req,res)=>{
             to: 'contact@slog.ai',
             from:'contact@slog.ai',
             subject: 'New request from landing page',
-            text: `Email => ${email}`,
-            message:`<strong>${message}</strong>`
+            text: `Email => ${email} \n\n${message}`,
         }
         try{
             await sgMail.send(msg)
