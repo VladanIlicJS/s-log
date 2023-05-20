@@ -20,7 +20,7 @@ const InputForm = ({ inputFields, setInputFields }) => {
 
   return (
     <div className="my-5 w-full">
-      <h2 className="text-[#a1a5ff] text-[20px] font-bold my-4"> Add up 10 addresses and generate your optimized route</h2>
+      <h2 className="text-[#a1a5ff] text-[20px] font-bold my-4"> Add up to 10 addresses and generate your optimized route</h2>
       <form className="md:w-[80%] my-10">
         {inputFields.map((inputField, index) => (
           <div key={index} className="w-full flex justify-between my-4 items-center">
