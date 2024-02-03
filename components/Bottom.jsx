@@ -77,8 +77,11 @@ const Bottom = () => {
           <h1 className="text-[16px] font-semibold lg:pb-8 py-2 text-white">Get in Touch</h1>
           <p className="text-white opacity-50">Feel free to get in touch with us via email</p>
           <p className="text-white py-5 text-[18px] font-medium italic">contact@slog.ai</p>
+          <p className="text-white opacity-50">SLog d.o.o.</p>
+          <p className="text-white opacity-50">Marka Nikolica 19 Beograd, Zemun 11080</p>
+          <p className="text-white opacity-50">Serbia</p>
         </div>
-        <ContactForm/>
+        <ContactForm />
       </div>
     </div>
   )
